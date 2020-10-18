@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 
-class RoleCall extends Component {
+
+
+export class RoleCall extends Component {
   render() {
     return (
       <div>
-        <p>RoleCall component</p>
+        <p>RoleCall component lmao</p>
       </div>
     );
   }
 }
-
-render(<RoleCall />, document.getElementById("role-call"));
