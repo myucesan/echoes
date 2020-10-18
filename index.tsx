@@ -13,10 +13,6 @@ interface AppState {
   name: string;
 }
 
-admin.initializeApp({
-  credential: admin.credential.applicationDefault(),
-  databaseURL: "https://<DATABASE_NAME>.firebaseio.com"
-});
 
 class App extends Component<AppProps, AppState> {
   constructor(props) {
