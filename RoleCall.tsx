@@ -1,14 +1,20 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 
+import "tabler-react/dist/Tabler.css";
 
+import { Card, Button } from "tabler-react";
 
 export class RoleCall extends Component {
   render() {
     return (
-      <div>
-        <p>RoleCall component lmao</p>
-      </div>
+      <Card>
+        <Card.Header>
+          <Card.Title>Card Title</Card.Title>
+        </Card.Header>
+        <Card.Body>
+          <Button color="primary">A Button</Button>
+        </Card.Body>
+      </Card>
     );
   }
 }
